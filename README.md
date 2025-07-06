@@ -38,14 +38,54 @@ Solución: El componente sugiere automáticamente contraseñas seguras y proporc
 Además, evita errores como campos de contraseña vacíos o mal ingresados gracias a su diseño claro y funciones accesibles.
 
 ---
-## 📦INSTALACIÓN
-Puedes incluir la librería en tu proyecto HTML mediante una descarga directa del archivo:
+## 📦 INSTALACIÓN
 
-1.-Descarga el archivo validadorForm.js y colócalo en la misma carpeta de tu proyecto HTML.
+Puedes integrar el componente Generador de Contraseña Segura en tu proyecto HTML de la siguiente manera:
 
-2.-Luego inclúyelo así:
+1. Descarga los archivos necesarios:
+   - `componente.js`
+   - `componente.css`
 
-<script src="https://cdn.jsdelivr.net/npm/just-validate@4.2.0/dist/just-validate.production.min.js"></script>
+2. Coloca ambos archivos en las carpetas correspondientes de tu proyecto (por ejemplo: `/js/` y `/css/`).
+
+3. En tu archivo HTML, enlaza los archivos así:
+
+```html
+<link rel="stylesheet" href="css/componente.css">
+<script src="js/componente.js" defer></script>
+```
+
+4. Asegúrate de tener en el cuerpo (`<body>`) la estructura HTML del componente. Por ejemplo:
+
+```html
+<div class="contenedor">
+  <h2>Generador Contraseña Segura</h2>
+
+  <label for="password">Contraseña:</label>
+  <div class="input-group">
+    <input type="password" id="password" oninput="evaluarPassword(this.value)" placeholder="Ingrese su contraseña" />
+    <button onclick="togglePassword()">👁️</button>
+  </div>
+
+  <p class="recomendacion">Para mayor seguridad, usa al menos 10 caracteres incluyendo mayúsculas, minúsculas, números y símbolos.</p>
+
+  <div class="input-group">
+    <button onclick="generarPassword()">Generar contraseña segura</button>
+  </div>
+
+  <div class="barra-seguridad" id="barraSeguridad">
+    <div class="nivel" id="nivelSeguridad"></div>
+  </div>
+
+  <p id="textoSeguridad"></p>
+</div>
+```
+
+---
+
+### ✅ Nota:
+No necesitas instalar ningún paquete externo ni usar librerías de terceros. Este componente fue creado usando únicamente HTML, CSS y JavaScript puro, por lo que es **ligero, rápido y fácilmente integrable** en cualquier proyecto.
+
 
 ---
 
