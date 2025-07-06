@@ -39,6 +39,7 @@ Oaxaca, Oaxaca, a 04 de julio de 2025.
 ## ¿Qué problema resuelve?
 Previene errores al generar e ingresar contraseñas.
 Problema: Los usuarios suelen crear contraseñas débiles, repetidas o fáciles de adivinar. Esto representa un riesgo para la seguridad de sus cuentas.
+
 Solución: El componente sugiere automáticamente contraseñas seguras y proporciona validación visual para garantizar que cumplan con criterios como longitud, uso de mayúsculas, minúsculas, números y símbolos.
 Además, evita errores como campos de contraseña vacíos o mal ingresados gracias a su diseño claro y funciones accesibles.
 
@@ -88,7 +89,7 @@ Puedes integrar el componente Generador de Contraseña Segura en tu proyecto HTM
 
 ---
 
-### ✅ Nota:
+### Nota:
 No necesitas instalar ningún paquete externo ni usar librerías de terceros. Este componente fue creado usando únicamente HTML, CSS y JavaScript puro, por lo que es **ligero, rápido y fácilmente integrable** en cualquier proyecto.
 
 
