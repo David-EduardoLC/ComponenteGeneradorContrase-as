@@ -270,7 +270,7 @@ Formulario con capus rellenados
 
 
 ## VIDEO EXPLICADO DE LA LIBRERIA
-https://youtu.be/CtLE1ba44DY?si=mP8CXnXXQ3ZdG29T
+https://youtu.be/WOUJ4MwsG3c
 
 ## GitHub Pages
 http://127.0.0.1:5500/BmiLibreria/libreria.html
